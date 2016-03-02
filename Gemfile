@@ -8,6 +8,9 @@ gem 'sqlite3' , group: :development
 #本番環境ではpostgressを使用します。
 gem 'pg' , group: :production
 
+#pryをインストール
+gem 'pry-byebug', group: :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
